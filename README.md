@@ -15,38 +15,27 @@ Setup Repo on GitHub (from Tophr):
   * (Refresh browser with ```Shift-Ctrl-R``` or ```Shift-F5```)
 
 
-Local Repo Setup
-* Clone github repo onto computer
-
-
 Jekyll:
 * Download & Install Ruby [for Windows](https://rubyinstaller.org/)
 * Install Bundler with:
   * ``` gem install bundler ```
 * Install Jekyll with:
   * ```gem install jekyll bundler``` 
-* Create a new Jekyll site with:
+
+In Local Repo on computer:
+* Clone github repo onto computer with:
+  * ``` git clone -reference <github-repositorypurl> -d <directory-to-put-project-in>```
+* Create a new Jekyll site in the project with:
   * ```jekyll new --skip-bundle . --force```
 
 Using Jekyll:
 * Add ```#``` to th beginning of the line that starts with ```gem "jekyll"``` to comment out this line.
- 
- hi
-
-
-Update Jekyll files:
-
-
-To View README.md file locally:
-```hi```
 
 
 To install a new Jekyll theme:
 (See  modernist theme example)[https://rubygems.org/gems/jekyll-theme-modernist/versions/0.1.1]
-
 * Edit the Gemfile:
 ```gem 'jekyll-theme-modernist', '~> 0.1.1' ```
-
 * Install the theme on your computer:
 ```gem install jekyll-theme-modernist -v 0.1.1 ```
 
