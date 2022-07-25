@@ -12,4 +12,4 @@ Compare the time differences between different searching algorithms:
 ## CS Teaching Methods I
 
 
-
+(How to Jekyll a Github Page website)[README.md)
