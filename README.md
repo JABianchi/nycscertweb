@@ -55,11 +55,13 @@ To install a new Jekyll theme:
 ```bundle exec jekyll serve```
 
 * Testing CSS in HTML in MD
+
 <style>
 .green {
     color: green;
     font-weight:700;
     font-size: 30px;
+    font-family: "Times New Roman", Times, serif    
 }
 </style>
 
