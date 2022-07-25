@@ -32,4 +32,35 @@ Using Jekyll:
 * Add ```#``` to th beginning of the line that starts with ```gem "jekyll"``` to comment out this line.
 
 
+Update Jekyll files:
 
+
+To View README.md file locally:
+```hi```
+
+
+To install a new Jekyll theme:
+(See  modernist theme example)[https://rubygems.org/gems/jekyll-theme-modernist/versions/0.1.1]
+
+* Edit the Gemfile:
+```gem 'jekyll-theme-modernist', '~> 0.1.1' ```
+
+* Install the theme on your computer:
+```gem install jekyll-theme-modernist -v 0.1.1 ```
+
+
+* To run the new site locally:
+```bundle exec jekyll serve```
+
+* Testing CSS in HTML in MD
+<style>
+.green {
+    color: green;
+    font-weight:700;
+    font-size: 30px;
+}
+</style>
+
+<div class="green">
+    Markdown css styles
+</div>
